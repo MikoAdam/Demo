@@ -14,7 +14,7 @@ class Asset:
         self.name = name
         self.risks = {}
 
-    # adding risk here: I assume that risk_name is uniq ID, thus, I overwrite the value is the same rosk_name comes twice
+    # adding risk here: I assume that risk_name is uniq ID, thus, I overwrite the value is the same risk_name comes twice
     def add_risk(self, risk_name, risk_level):
         self.risks[risk_name] = risk_level
 
